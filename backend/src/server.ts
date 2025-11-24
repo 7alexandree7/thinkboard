@@ -9,7 +9,7 @@ const app: express.Application = express();
 const PORT =  process.env.PORT || 3000
 
 app.use(cors({
-    origin: 'https://thinkboard-ecru.vercel.app/',
+    origin: 'https://thinkboard-git-main-7alexandree7s-projects.vercel.app/',
     credentials: true
 }))
 
