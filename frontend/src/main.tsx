@@ -6,7 +6,7 @@ import App from './App.tsx'
 import { Toaster } from 'react-hot-toast'
 import axios from 'axios'
 
-axios.defaults.baseURL = 'https://thinkboard-h2sl.onrender.com/api'
+axios.defaults.baseURL = import.meta.env.VITE_API_URL
 axios.defaults.withCredentials = true
 
 createRoot(document.getElementById('root')!).render(
