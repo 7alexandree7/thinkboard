@@ -7,6 +7,7 @@ import { Toaster } from 'react-hot-toast'
 import axios from 'axios'
 
 axios.defaults.baseURL = 'https://thinkboard-h2sl.onrender.com/api'
+axios.defaults.withCredentials = true
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
