@@ -9,8 +9,8 @@ const app: express.Application = express();
 const PORT =  process.env.PORT || 3000
 
 app.use(cors({
-    origin: 'https://thinkboard-git-main-7alexandree7s-projects.vercel.app/',
-    credentials: true
+    origin: 'http://localhost:5173',
+    credentials: true,
 }))
 
 app.use(express.json())
